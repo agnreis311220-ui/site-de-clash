@@ -1,0 +1,88 @@
+.titulo{
+font-family: 'Trebuchet MS';
+color:rgb(255, 123, 0);
+font-size: 30px;
+text-align:center;
+}
+.conteiner{
+    background-color:royalblue;
+    border-radius: 14px;
+}
+.t{
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+    border-radius: 50px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    cursor: pointer;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    height: 100px;
+    width: 100%;
+
+}
+
+.logo{
+    color: white;
+    font-size: 2.5rem; ;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 4px rgba(red, green, blue, alpha)
+}
+
+.subtitulo{
+    color: white;
+    font-size: 1.2rem;
+    opacity: 0,9;
+}
+
+nav{
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav li{
+    padding: 1rem 2rem;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3;
+}
+
+nav a:hover{
+    color:yellow; 
+}
+
+.about{
+    padding: 2rem;
+    border-radius: 8px;
+    margin: 2rem;
+    box-shadow: 0 4px 8px;
+}
+
+.titulo-section{
+    color: yellow;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid;
+    padding-bottom: 0.8rem;
+}
